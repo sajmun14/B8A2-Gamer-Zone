@@ -1,6 +1,6 @@
 @media screen and (max-width:425px){
     .nav-container,.logo-container,.nav-item-container,
-    .nav-item-container,.banner-container,.section-1-container,.footer-1,.footer-2,.footer-3,.footer-4,.section-3-container,.section-4-primary
+    .nav-item-container,.banner-container,.section-1-container,.section-3-container
     {
         flex-direction: column;
 
@@ -15,20 +15,19 @@
         height: auto;
 
     }
-    
-
-
-
-
-
-
-
-
-
-
-    .footer-4{
-        padding: 0;
+    .section-2-responsive{
+        width: 100%;
+        height: auto;
     }
+
+
+
+
+
+
+
+
+
     
     
     
