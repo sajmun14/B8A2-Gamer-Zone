@@ -5,6 +5,17 @@
         flex-direction: column;
 
     }
+    .bannar-responsive,.
+    {
+        width: 100%;
+        height: auto;
+    }
+    .section-1-responsive{
+        width: 100%;
+        height: auto;
+
+    }
+    
 
 
 
@@ -21,5 +32,8 @@
     
     
     
+    
+}
+@media screen and (max-width:768px) {
     
 }
