@@ -1,16 +1,24 @@
 @media screen and (max-width:425px){
     .nav-container,.logo-container,.nav-item-container,
-    .nav-item-container,.banner-container,.section-1-container,.footer-1,.footer-2,.footer-3,.footer-4
+    .nav-item-container,.banner-container,.section-1-container,.footer-1,.footer-2,.footer-3,.footer-4,.section-3-container,.section-4-primary
     {
         flex-direction: column;
 
     }
-    .footer-1,.footer-2,.footer-3,.footer-4
-    {
-       
-        grid-template-columns: repeat(3,1fr);
 
+
+
+
+
+
+
+
+
+
+    .footer-4{
+        padding: 0;
     }
+    
     
     
     

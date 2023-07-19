@@ -147,7 +147,7 @@
     color: #534C64;
     font-size: 18px;
     font-weight: 400 ;
-    line-height:20px;
+    line-height:30px;
 }
 
 .section-1-our{
@@ -167,13 +167,7 @@
 /* section-1 ends */
 
 /* section-2 starts */
-.section-2-container{
-    
-    
-}
-.section-2-title{
 
-}
 .section-2-items{
     text-align: center;
 }
@@ -187,6 +181,17 @@
     height: 300px;
     width: 250px;
     
+}
+.figcaption-2{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.img-2:hover{
+    background-color: #3c354f;
+
 }
 
 /* section-2 ends */
