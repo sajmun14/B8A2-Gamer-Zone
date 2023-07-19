@@ -1,11 +1,14 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* navbar section starts */
 .nav-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #fff;
-    height: 100px ;
-    width: auto;
+    min-height: 50px;
 }
 .logo-container{
     display: flex;
@@ -14,16 +17,24 @@
 }
 .logo-container img{
     display: flex;
-    height: 40px;
-    width:86 px;
+    width:100 px;
+    object-fit: cover;
 }
+        
+
 .logo-container p{
     font-weight: 700;
     font-size: 45px;
 }
-.nav-item-container {
+.nav-item-container{
     display: flex;
-    gap: 40px;
+    align-items: center;
+    gap: 60px;
+}
+.nav-item-container a{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
     color: #3c354f; 
     font-size: 18px;
     font-weight: 500;
@@ -34,9 +45,70 @@
 .btn{
     text-align: center;
     border-radius: 8px;
+    padding: 10px 20px;
     background-color: #0b02231a;
     color: #3c354f;
     border: none;
+}
+/* navbar section ends */
+
+/* banner section starts */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.banner-item{
+    background-image: url(.images/Group 14.jpg);
+    
+    
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.banner-items{
+    gap: 20px;
+}
+.goat-span{
+    font-size: 95px;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom,#F948B2,#8758f1);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+.banner-p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    
+    
+}
+.btn-primary{
+    color: #fff;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    gap: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 48px;
+
+}
+.btn-gorogue{
+    color: #fff;
+    background-color: #4EC5F7;
+    padding: 21px 40px;
+    gap: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 48px;
+
+
 }
 
 
@@ -48,7 +120,7 @@
 
 
 
-/* navbar section ends */
+/* banner section ends */
 
 
 
@@ -72,8 +144,8 @@
     gap: 20px;
 }
 .footer-1 img{
-    height: 40px;
-    width:86 px;
+    width: 100px;
+    object-fit: cover;
 
 }
 .footer-2{

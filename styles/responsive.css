@@ -1,3 +1,11 @@
 @media screen and (max-width:425px){
+    .nav-container,.logo-container,
+    {
+        flex-direction: column;
+    }
+    .footer-container
+    {
+        
+    }
     
 }
