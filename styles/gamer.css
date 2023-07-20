@@ -252,22 +252,16 @@
     border-radius: 50px;
     background-color: #fff;
     border: 2px solid transparent;
+    color: #0B0223;
+    font-size:15px ;
+    font-weight: 600;
 
 
 } 
-.section-4-span{
-    color: #0B0223;
-    font-size: 15px;
-    font-weight: 600;
 
-}
 
 .section-4-btn:hover{
     border: 2px solid #F948B2;
-    
-}
-
-.section-4-span:hover{
     color: #F948B2;
 }
 
