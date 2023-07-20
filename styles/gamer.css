@@ -60,15 +60,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url(styles/Group);
   
 }
-.banner-item{
-    background-image: url("Group\ 14.png");
-    background-image:linear-gradient(to right, #8c57ee08 0%, #f144ae08 100%);
+
     
     
     
-}
+
 .title-primary{
     color: #0B0223;
     font-size: 48px;
@@ -239,10 +238,6 @@
 
 /* section-4 stars */
 
-
-
-
-
 .section-4-primary{
     display: flex;
     justify-content: center;
@@ -267,8 +262,10 @@
     font-weight: 600;
 
 }
+
 .section-4-btn:hover{
     border: 2px solid #F948B2;
+    
 }
 
 .section-4-span:hover{
@@ -276,38 +273,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* section-4 ends */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer section starts */
 
